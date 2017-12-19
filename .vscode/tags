@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	../traveraApp/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../traveraApp/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AppConfig	../reporteSemanal/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../traveraApp/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../traveraApp/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DEBUG	../traveraApp/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../traveraApp/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../traveraApp/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
+MIDDLEWARE	../traveraApp/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+ROOT_URLCONF	../traveraApp/settings.py	/^ROOT_URLCONF = 'traveraApp.urls'$/;"	kind:variable	line:52
+ReportesemanalConfig	../reporteSemanal/apps.py	/^class ReportesemanalConfig(AppConfig):$/;"	kind:class	line:4
+SECRET_KEY	../traveraApp/settings.py	/^SECRET_KEY = '_&k^$78m($^l#rc+=uvnubxj))2%2p(ri^9s6f(kckjgxj#@gf'$/;"	kind:variable	line:23
+STATIC_URL	../traveraApp/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
+TEMPLATES	../traveraApp/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TIME_ZONE	../traveraApp/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+TestCase	../reporteSemanal/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../traveraApp/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
+USE_L10N	../traveraApp/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
+USE_TZ	../traveraApp/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
+WSGI_APPLICATION	../traveraApp/settings.py	/^WSGI_APPLICATION = 'traveraApp.wsgi.application'$/;"	kind:variable	line:70
+__init__.py	../reporteSemanal/__init__.py	1;"	kind:file	line:1
+__init__.py	../reporteSemanal/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../traveraApp/__init__.py	1;"	kind:file	line:1
+admin	../reporteSemanal/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../traveraApp/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:16
+admin.py	../reporteSemanal/admin.py	1;"	kind:file	line:1
+application	../traveraApp/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../reporteSemanal/apps.py	1;"	kind:file	line:1
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	../traveraApp/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+manage.py	../manage.py	1;"	kind:file	line:1
+models	../reporteSemanal/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../reporteSemanal/models.py	1;"	kind:file	line:1
+name	../reporteSemanal/apps.py	/^    name = 'reporteSemanal'$/;"	kind:variable	line:5
+os	../manage.py	/^import os$/;"	kind:namespace	line:2
+os	../traveraApp/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../traveraApp/wsgi.py	/^import os$/;"	kind:namespace	line:10
+path	../traveraApp/urls.py	/^from django.urls import path$/;"	kind:namespace	line:17
+render	../reporteSemanal/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+settings.py	../traveraApp/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	../reporteSemanal/tests.py	1;"	kind:file	line:1
+urlpatterns	../traveraApp/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../traveraApp/urls.py	1;"	kind:file	line:1
+views.py	../reporteSemanal/views.py	1;"	kind:file	line:1
+wsgi.py	../traveraApp/wsgi.py	1;"	kind:file	line:1
