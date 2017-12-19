@@ -4,26 +4,37 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../reporteSemanal/migrations/0001_initial.py	1;"	kind:file	line:1
 ALLOWED_HOSTS	../traveraApp/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
-AUTH_PASSWORD_VALIDATORS	../traveraApp/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AUTH_PASSWORD_VALIDATORS	../traveraApp/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
 AppConfig	../reporteSemanal/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
 BASE_DIR	../traveraApp/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
-DATABASES	../traveraApp/settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DATABASES	../traveraApp/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
 DEBUG	../traveraApp/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+ENTREGADO	../reporteSemanal/models.py	/^    ENTREGADO = 'E'$/;"	kind:variable	line:9
+EN_PROCESO	../reporteSemanal/models.py	/^    EN_PROCESO = 'EP'$/;"	kind:variable	line:8
+EN_REVISION	../reporteSemanal/models.py	/^    EN_REVISION = 'ER'$/;"	kind:variable	line:10
+FINALIZADO	../reporteSemanal/models.py	/^    FINALIZADO = 'F'$/;"	kind:variable	line:11
 INSTALLED_APPS	../traveraApp/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
-LANGUAGE_CODE	../traveraApp/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
-MIDDLEWARE	../traveraApp/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
-ROOT_URLCONF	../traveraApp/settings.py	/^ROOT_URLCONF = 'traveraApp.urls'$/;"	kind:variable	line:52
+LANGUAGE_CODE	../traveraApp/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	../traveraApp/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+Migration	../reporteSemanal/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+NO_INICIADO	../reporteSemanal/models.py	/^    NO_INICIADO = 'NI'$/;"	kind:variable	line:7
+PRODUCTO1_OP	../reporteSemanal/models.py	/^    PRODUCTO1_OP = ($/;"	kind:variable	line:12
+PRODUCTO2_OP	../reporteSemanal/models.py	/^    PRODUCTO2_OP = ($/;"	kind:variable	line:20
+PRODUCTO3_OP	../reporteSemanal/models.py	/^    PRODUCTO3_OP = ($/;"	kind:variable	line:28
+ROOT_URLCONF	../traveraApp/settings.py	/^ROOT_URLCONF = 'traveraApp.urls'$/;"	kind:variable	line:53
+Reporte	../reporteSemanal/models.py	/^class Reporte(models.Model):$/;"	kind:class	line:6
 ReportesemanalConfig	../reporteSemanal/apps.py	/^class ReportesemanalConfig(AppConfig):$/;"	kind:class	line:4
 SECRET_KEY	../traveraApp/settings.py	/^SECRET_KEY = '_&k^$78m($^l#rc+=uvnubxj))2%2p(ri^9s6f(kckjgxj#@gf'$/;"	kind:variable	line:23
-STATIC_URL	../traveraApp/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
-TEMPLATES	../traveraApp/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
-TIME_ZONE	../traveraApp/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+STATIC_URL	../traveraApp/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	../traveraApp/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../traveraApp/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
 TestCase	../reporteSemanal/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
-USE_I18N	../traveraApp/settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
-USE_L10N	../traveraApp/settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
-USE_TZ	../traveraApp/settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
-WSGI_APPLICATION	../traveraApp/settings.py	/^WSGI_APPLICATION = 'traveraApp.wsgi.application'$/;"	kind:variable	line:70
+USE_I18N	../traveraApp/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	../traveraApp/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	../traveraApp/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	../traveraApp/settings.py	/^WSGI_APPLICATION = 'traveraApp.wsgi.application'$/;"	kind:variable	line:71
 __init__.py	../reporteSemanal/__init__.py	1;"	kind:file	line:1
 __init__.py	../reporteSemanal/migrations/__init__.py	1;"	kind:file	line:1
 __init__.py	../traveraApp/__init__.py	1;"	kind:file	line:1
@@ -32,16 +43,38 @@ admin	../traveraApp/urls.py	/^from django.contrib import admin$/;"	kind:namespac
 admin.py	../reporteSemanal/admin.py	1;"	kind:file	line:1
 application	../traveraApp/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
 apps.py	../reporteSemanal/apps.py	1;"	kind:file	line:1
+choices	../reporteSemanal/models.py	/^        choices = PRODUCTO1_OP,$/;"	kind:variable	line:38
+choices	../reporteSemanal/models.py	/^        choices = PRODUCTO1_OP,$/;"	kind:variable	line:45
+choices	../reporteSemanal/models.py	/^        choices = PRODUCTO1_OP,$/;"	kind:variable	line:52
+datetime	../reporteSemanal/models.py	/^import datetime$/;"	kind:namespace	line:2
+default	../reporteSemanal/models.py	/^        default = NO_INICIADO$/;"	kind:variable	line:39
+default	../reporteSemanal/models.py	/^        default = NO_INICIADO$/;"	kind:variable	line:46
+default	../reporteSemanal/models.py	/^        default = NO_INICIADO$/;"	kind:variable	line:53
+dependencies	../reporteSemanal/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
 execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+fields	../reporteSemanal/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+forms.py	../reporteSemanal/forms.py	1;"	kind:file	line:1
 get_wsgi_application	../traveraApp/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+inicio_semana	../reporteSemanal/models.py	/^    inicio_semana = models.DateField(_("Date"), default = datetime.date.today)/;"	kind:variable	line:56
+initial	../reporteSemanal/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
 manage.py	../manage.py	1;"	kind:file	line:1
+max_length	../reporteSemanal/models.py	/^        max_length = 2,$/;"	kind:variable	line:37
+max_length	../reporteSemanal/models.py	/^        max_length = 2,$/;"	kind:variable	line:44
+max_length	../reporteSemanal/models.py	/^        max_length = 2,$/;"	kind:variable	line:51
+migrations	../reporteSemanal/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+models	../reporteSemanal/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
 models	../reporteSemanal/models.py	/^from django.db import models$/;"	kind:namespace	line:1
 models.py	../reporteSemanal/models.py	1;"	kind:file	line:1
 name	../reporteSemanal/apps.py	/^    name = 'reporteSemanal'$/;"	kind:variable	line:5
+name	../reporteSemanal/migrations/0001_initial.py	/^            name='Reporte',$/;"	kind:variable	line:15
+operations	../reporteSemanal/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
 os	../manage.py	/^import os$/;"	kind:namespace	line:2
 os	../traveraApp/settings.py	/^import os$/;"	kind:namespace	line:13
 os	../traveraApp/wsgi.py	/^import os$/;"	kind:namespace	line:10
 path	../traveraApp/urls.py	/^from django.urls import path$/;"	kind:namespace	line:17
+producto1	../reporteSemanal/models.py	/^    producto1 = models.CharField($/;"	kind:variable	line:36
+producto2	../reporteSemanal/models.py	/^    producto2 = models.CharField($/;"	kind:variable	line:43
+producto3	../reporteSemanal/models.py	/^    producto3 = models.CharField($/;"	kind:variable	line:50
 render	../reporteSemanal/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
 settings.py	../traveraApp/settings.py	1;"	kind:file	line:1
 sys	../manage.py	/^import sys$/;"	kind:namespace	line:3

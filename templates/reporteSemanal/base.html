@@ -1,0 +1,22 @@
+{% load staticfiles %}
+
+<html>
+    <head>
+        <title>
+            Reporte por semanas
+        </title>
+    </head>
+    <body>
+        <div class="page-header">
+            <a href="{% url 'hacer_reporte' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        </div>
+        <div class="content container">
+            <div class="row">
+                <div class="col-md-8">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
